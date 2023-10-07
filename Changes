@@ -1,0 +1,6 @@
+Revision history for Perl extension Socket::More::Interface.
+
+0.01  Sat Oct  7 19:08:36 2023
+	- original version; created by h2xs 1.23 with options
+		--name Socket::More::Interface -P
+
