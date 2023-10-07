@@ -13,6 +13,7 @@ WriteMakefile(
 	LIBS              => [''], # e.g., '-lm'
 	DEFINE            => '', # e.g., '-DHAVE_SOMETHING'
 	INC               => '-I.', # e.g., '-I. -I/usr/include/other'
+	MIN_PERL_VERSION=>"v5.36.0",
 	META_ADD => {
 		"meta-spec" => {
 			version => 2
