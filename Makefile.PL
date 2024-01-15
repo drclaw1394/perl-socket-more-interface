@@ -3,7 +3,9 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME              => 'Socket::More::Interface',
     VERSION_FROM      => 'lib/Socket/More/Interface.pm',
-    PREREQ_PM         => {},
+    PREREQ_PM         => {
+      "Export::These"=> 'v0.2.1' 
+    },
     ABSTRACT_FROM     => 'lib/Socket/More/Interface.pod', 
     
 
