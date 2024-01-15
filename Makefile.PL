@@ -22,7 +22,7 @@ WriteMakefile(
 			repository =>{
 				type => "git",
 				url => "git://github.com/drclaw1394/perl-socket-more-interface.git",
-				web => "http://github.com/drclaw1394/perl-socket-more-interface",
+				web => "https://github.com/drclaw1394/perl-socket-more-interface",
 			}
 		}
 	}

@@ -25,6 +25,8 @@ Socket::More::Interface - Query network interfaces of your system
 =head1 DESCRIPTION
 
 Simple wrapper to library calls. Consult you man page for what they do.
+C<getifaddrs>, C<if_nametoindex>, C<if_indextoname> and C<if_nameindex> are
+exported by default.
 
 =head1 API
 
@@ -104,7 +106,7 @@ Ruben Westerberg, E<lt>drclaw@mac.com<gt>
 
 =head1 REPOSITORTY and BUGS
 
-Please report any bugs via git hub: L<http://github.com/drclaw1394/perl-socket-more-interface>
+Please report any bugs via git hub: L<https://github.com/drclaw1394/perl-socket-more-interface>
 
 =head1 COPYRIGHT AND LICENSE
 
